@@ -1,0 +1,52 @@
+html{
+    scroll-behavior: smooth;
+}
+.d{
+    border: 1px solid red;
+}
+.small{
+    font-size: 0.5rem;
+}
+.header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.decor{
+    list-style: none;
+}
+.bg-black{
+    background-color: #111;
+}
+.navbar{
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.icon{
+    position: relative;
+    padding-left: 1rem;
+}
+.icon-color{
+    border: none;
+    padding: 10px;
+    filter: invert(31%) sepia(78%) saturate(1211%) hue-rotate(190deg) brightness(107%) contrast(106%)
+}
+.icon-badge{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -20%;
+    left: 0;
+    border-radius: 50%;
+    background-color: rgba(211, 243, 253, 0.648);
+}
+
+.headerContainer{
+    background-color: #c6c4c4;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+

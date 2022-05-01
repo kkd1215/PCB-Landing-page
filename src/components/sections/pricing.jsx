@@ -11,11 +11,11 @@ const Pricing = () => {
         <div className='row'>
             <PriceCard price={pricings[0]}/>
             <div className='col-md-4 mb-3'>
-                <div className="card">
-                    <div className="row g-0">
-                        <div className="col-6 p-2">
+                <div className="card h-100">
+                    <div className="row g-0 h-100">
+                        <div className="col-6 h-100 p-2">
                             <h2 className='text-primary fs-bolder'>Detectable Defects:</h2>
-                            <p>Nick <br/> Metal burrs <br/> Open Circuit <br/> Short Circuit, <br/>
+                            <p>Nick <br/> Metal Burrs <br/> Open Circuit <br/> Short Circuit <br/>
                                 Copper Residue <br/>
                                 Under Etch <br/>
                                 Wrong Size Hole <br/>
@@ -29,7 +29,7 @@ const Pricing = () => {
                             </p>
 
                         </div>
-                        <div className="col-6">
+                        <div className="col-6 h-100">
                             <img className='img-fluid h-100' src="/images/img2.jpg" alt="a mother chip showing commponents" />
                         </div>
                         <div>
@@ -52,7 +52,9 @@ const pricings = [
         price: 500,
         items: [
             '12 Detectable Defects',
-            'Data Capabilities'
+            'Defect Statistics Data',
+            'Defect Forecasts',
+            'Accessible Customer Service via Phone',
         ],
         image: '/images/money.png'
     },
@@ -62,8 +64,11 @@ const pricings = [
         price: 750,
         items: [
             '15 Detectable Defects',
-            'Data Capabilities',
-            'Key Insights'
+            'Defect Statistics Data',
+            'Defect Forecasts',
+            'A.I-Generated Key Insights',
+            'Accessible Customer Service via Phone',
+            'Access to Customer Service via 24/7 Bot',
         ],
         image: '/images/best-price.png'
 

@@ -25,9 +25,6 @@ const PriceCard = ({price}) => {
                         })}
                     </ul>
             </div>
-            <div className="card-footer bg-transparent border-0 pb-3">
-                <button className='btn btn-outline-primary border-2 rounded-0 align-bottom'>Discover More</button>
-            </div>
         </div>
     </div>
   )

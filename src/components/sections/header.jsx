@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Header = () => {
   return (
     <div className="container-fluid bg-light">
-      <div className="container my-5 py-5">
+      <div className="container py-5">
         <div className="row">
           <div className="col-md-8 hero d-flex header">
             <div>
@@ -14,13 +14,14 @@ const Header = () => {
                 A.I. Enabled PCB <br /> Defect Detector
               </h2>
               <button className="btn btn-primary p-3 my-5 rounded-0">
-                Learn More
+                <a href="#about" className="nav-link text-light">About Us <span className="mx-1"> &darr; </span></a>
               </button>
             </div>
           </div>
           <div className="col-md-4">
             <img
-              className="img-fluid w-100"
+              className="img-fluid"
+              style={{ height: "100%", width: "100%", objectFit: 'cover'}}
               src="images/img1.png"
               alt="circuit board"
             />
